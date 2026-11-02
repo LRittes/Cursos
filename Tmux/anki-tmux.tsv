@@ -1,0 +1,34 @@
+Tmux: Qual comando lista as sessões do tmux?,tmux ls
+Tmux: Qual comando cria uma sessão chamada <nome>?,tmux new -S <nome>
+Tmux: Qual opção cria a sessão sem entrar nela?,-d (ex.: tmux new -S <nome> -d)
+Tmux: Qual comando conecta à sessão <id>?,tmux a -t <id>
+Tmux: Qual comando encerra a sessão atual sem matar o tmux server?,exit
+Tmux: Qual comando mata a sessão <nome>?,tmux kill-session -t <nome>
+Tmux: Qual comando mata todas as sessões do tmux?,tmux kill-server
+Tmux: Qual é a tecla mestre configurada?,^a (Ctrl-a)
+Tmux: Qual atalho cria uma nova janela?,^c
+Tmux: Qual atalho divide o painel horizontalmente (split lado a lado)?,^|
+Tmux: Qual atalho divide o painel verticalmente (split em cima/baixo)?,^-
+Tmux: Qual atalho se desconecta da sessão sem encerrá-la?,^d
+Tmux: Qual atalho renomeia a sessão?,^$
+Tmux: Qual atalho renomeia a janela/terminal?,"^,"
+Tmux: Qual atalho alterna o zoom do painel?,^z
+Tmux: Qual atalho lista as sessões dentro do tmux?,^s
+Tmux: Qual atalho lista as janelas dentro do tmux?,^w
+Tmux: Qual atalho mostra o relógio?,^t
+Tmux: Qual atalho vai para a sessão anterior?,^(
+Tmux: Qual atalho vai para a próxima sessão?,^)
+Tmux: Qual atalho vai para a próxima janela?,^n
+Tmux: Qual atalho vai para a janela anterior?,^p
+Tmux: Qual atalho entra no modo de cópia para navegar pelo histórico?,^[
+"Tmux: No modo de cópia vi, qual tecla inicia a seleção?",v
+"Tmux: No modo de cópia vi, qual tecla copia a seleção?",y
+Tmux: Qual atalho cola o buffer do tmux?,^P
+Tmux: Qual atalho divide o painel horizontalmente mantendo o diretório atual?,^|
+Tmux: Qual atalho divide o painel verticalmente mantendo o diretório atual?,^-
+Tmux: Qual atalho recarrega ~/.tmux.conf?,^r
+Tmux: Qual atalho aumenta o painel para baixo em 5 células?,^j
+Tmux: Qual atalho aumenta o painel para cima em 5 células?,^k
+Tmux: Qual atalho aumenta o painel para a direita em 5 células?,^l
+Tmux: Qual atalho aumenta o painel para a esquerda em 5 células?,^h
+Tmux: Qual atalho alterna o zoom do painel (atalho personalizado)?,^m

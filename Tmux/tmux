@@ -1,0 +1,25 @@
+
+listar sessões = tmux ls
+criar sessão = tmux new -S <nome> [-d (não entrar na sessão)]
+attached sessão = tmux a -t <id>
+sair do/matar terminal = exit 
+matar sessão = tmux kill-session -t <nome> 
+matar todas  sessões = tmux kill-server 
+
+MESTRE = ^ + a 
+
+nova janela = mestre + c
+modo horizontal = mestre + "
+modo vertical = mestre + %
+dettached/sair sem matar a sessão = mestre + d
+renomear sessão = mestre + $
+renomear terminal = mestre + ,
+[des]expandir/[des]focar terminal = mestre + z
+listar sessões (já dentro do tmux) = mestre + s
+listar terminais (já dentro do tmux) = mestre + w
+mostrar as horas = mestre + t
+navegar sessão = mestre + ['(' (esquerda) | ')' (direita)]
+navegar terminal direita = mestre + n
+navegar terminal esquerda = mestre + p
+navegar pelo terminal como se fosse vim = mestre + [ (navegando pode selecionar com 'v' e copiar com 'y')
+colar o que estiver no clipboard = mestre + P
